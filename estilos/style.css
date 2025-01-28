@@ -2,4 +2,97 @@
 
 body{
     background-color: black;
+    box-sizing: border-box;
 }
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar-navigation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+    width: 300px;
+    height: 200px;
+}
+
+.sidebar-navigation .logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar-navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar #biblioteca{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    background-color: #121212;
+    color: #b3b3b3;
+    border-radius: 8px;
+    margin-top: 14px;
+    text-decoration: none;
+    width: 300px;
+}
+
+#biblioteca .biblioteca-conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#biblioteca .botao-biblioteca{
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;; 
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+} 
+
+#biblioteca #botao-biblioteca .fa{
+    font-size: 20px;
+    font-weight: 300px;
+    color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+#biblioteca .biblioteca-conteudo .fa-plus{
+    margin: 24px;
+}
+
