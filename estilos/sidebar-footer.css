@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    box-sizing: border-box;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    
+}
+
+.sidebar-navigation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+    width: 300px;
+    height: 200px;
+}
+
+.sidebar-navigation .logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar-navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebar #biblioteca{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    background-color: #121212;
+    color: #b3b3b3;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 300px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#biblioteca .biblioteca-conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#biblioteca .botao-biblioteca{
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+} 
+
+#biblioteca .botao-biblioteca:hover{
+    cursor: pointer;
+
+}
+
+#biblioteca #botao-biblioteca .fa{
+    font-size: 20px;
+    font-weight: 300px;
+    color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+#biblioteca .biblioteca-conteudo .fa-plus{
+    margin: 24px;
+}
+
+#playlist{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+#playlist .playlist-children{
+    display: flex;
+    flex-direction:column;
+}
+
+.playlist-children .text{
+    padding-bottom: 14px;
+    color: white;
+}
+
+.playlist-children .title{
+    font-weight: 700;
+}
+
+.playlist-children .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.playlist-children .playlist-button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0;
+    width: 113px;
+    cursor: pointer;
+}
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.lenguages .lenguages-button{
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+footer.premium{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #97029c, #02c1e2 );
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.premium .text{
+    flex-shrink: 0;
+}
+
+.premium .text .premium-title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+.premium .text .premium-subtitle{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer.premium .premium-button{
+    background-color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+button.inscrevase{
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
