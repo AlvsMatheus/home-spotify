@@ -20,8 +20,7 @@ body{
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0px 0px 16px;
-    width: 300px;
-    height: 200px;
+    
 }
 
 .sidebar-navigation .logo{
@@ -60,10 +59,9 @@ body{
     color: #b3b3b3;
     border-radius: 8px;
     margin-top: 10px;
-    text-decoration: none;
-    width: 300px;
     font-weight: 600;
     font-size: 14px;
+    height: 500px;
 }
 
 #biblioteca .biblioteca-conteudo{
@@ -78,7 +76,7 @@ body{
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
@@ -93,14 +91,14 @@ body{
 
 #biblioteca #botao-biblioteca .fa{
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 300;
     color: #b3b3b3;
     margin-right: 10px;
     padding-right: 8px;
 }
 
 #biblioteca .biblioteca-conteudo .fa-plus{
-    margin: 24px;
+    margin: 24px 10px;
 }
 
 #playlist{
@@ -181,55 +179,41 @@ body{
     border-radius: 20px;
 }
 
-footer.premium{
-    display: flex;
+.disclaimer-premium {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(to right, #97029c, #02c1e2 );
+    background: linear-gradient(to right, #ae2896, #509bf5);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
 }
-
-.premium .text{
-    flex-shrink: 0;
+.disclaimer-premium .text {
+   flex-shrink: 0;
 }
-
-.premium .text .premium-title{
-    color: white;
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 10px;
-
 }
 
-.premium .text .premium-subtitle{
-    color: #fff;
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
     font-size: 14px;
     font-weight: 500;
 }
 
-footer.premium .premium-button{
-    background-color: white;
-    padding: 14px 30px;
-    border-radius: 30px;
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
     font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
 }
-
-button.inscrevase{
-    font-size: 16px;
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    color: black;
-    font-weight: bolder;
-    cursor: pointer;
-}
-
-
-
