@@ -1,0 +1,34 @@
+{
+    "artists": [
+      {
+        "id": 1,
+        "name": "Foo Fighters",
+        "genre": "Rock",
+        "urlImg": "https://cdn.wegow.com/media/artists/foo-fighters/foo-fighters-1581339172.4464262.2560x1440.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Michael Jackson",
+        "genre": "Pop",
+        "urlImg": "https://images2.fanpop.com/image/photos/10700000/Close-Up-Large-Photo-michael-jackson-10731676-1267-1333.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Emicida",
+        "genre": "Rap",
+        "urlImg": "https://i0.wp.com/portalpopmais.com.br/wp-content/uploads/2022/06/emicida.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Caetano Veloso",
+        "genre": "MPB",
+        "urlImg": "https://www.estrelando.com.br/uploads/2020/08/07/caetano-veloso-2--1596818987.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Chitãozinho e Xororó",
+        "genre": "Sertanejo",
+        "urlImg": "https://www.portaltemponovo.com.br/wp-content/uploads/2022/10/chitaozinho-e-xororo-scaled.jpg"
+      }
+    ]
+  }
