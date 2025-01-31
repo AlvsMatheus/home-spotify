@@ -1,34 +1,46 @@
 {
-    "artists": [
-      {
-        "id": 1,
-        "name": "Foo Fighters",
-        "genre": "Rock",
-        "urlImg": "https://cdn.wegow.com/media/artists/foo-fighters/foo-fighters-1581339172.4464262.2560x1440.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Michael Jackson",
-        "genre": "Pop",
-        "urlImg": "https://images2.fanpop.com/image/photos/10700000/Close-Up-Large-Photo-michael-jackson-10731676-1267-1333.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Emicida",
-        "genre": "Rap",
-        "urlImg": "https://i0.wp.com/portalpopmais.com.br/wp-content/uploads/2022/06/emicida.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Caetano Veloso",
-        "genre": "MPB",
-        "urlImg": "https://www.estrelando.com.br/uploads/2020/08/07/caetano-veloso-2--1596818987.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Chitãozinho e Xororó",
-        "genre": "Sertanejo",
-        "urlImg": "https://www.portaltemponovo.com.br/wp-content/uploads/2022/10/chitaozinho-e-xororo-scaled.jpg"
-      }
-    ]
-  }
+  "artists": [
+    {
+      "id": 1,
+      "name": "Foo Fighters",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15"
+    },
+    {
+      "id": 2,
+      "name": "Michael Jackson",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa"
+    },
+    {
+      "id": 3,
+      "name": "Emicida",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174908b4b4bc90e1518b68b4068"
+    },
+    {
+      "id": 4,
+      "name": "Chitãozinho e Xororó",
+      "genre": "Sertanejo",
+      "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4"
+    },
+    {
+      "id": 5,
+      "name": "Mc Coringa",
+      "genre": "Funk",
+      "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56"
+    },
+    {
+      "id": 6,
+      "name": "Arlindo Cruz",
+      "genre": "Samba",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839"
+    },
+    {
+      "id": 7,
+      "name": "Caetano Veloso",
+      "genre": "MPB",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757"
+    }
+  ]
+}
