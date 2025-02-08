@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media screen and(max-width:1050px){
+
     .list-item{
         grid-template-columns: 1fr 1fr;
     }
