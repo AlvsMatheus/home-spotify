@@ -13,7 +13,7 @@ body{
     bottom: 0;
     padding: 12px;
     width: 300px;
-    
+
 }
 
 .sidebar-navigation{
@@ -189,9 +189,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.disclaimer-premium .text {
-   flex-shrink: 0;
-}
+
 .disclaimer-premium .disclaimer-premium__title {
     color: #ffffff;
     text-transform: uppercase;
