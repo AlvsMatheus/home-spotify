@@ -54,3 +54,5 @@ return: para o código terminar após isso
 //o request Api vai pedir o searchTerm
     requestApi(searchTerm);
 })
+
+
